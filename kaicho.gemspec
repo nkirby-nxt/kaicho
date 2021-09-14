@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['lattis@mochiro.moe']
 
   spec.summary       = 'a resource manager'
-  spec.homepage      = 'https://github.com/annacrombie/kaicho'
+  spec.homepage      = 'https://github.com/nxtsoft/kaicho'
 
   spec.files         = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject do |f|
